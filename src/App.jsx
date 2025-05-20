@@ -1,12 +1,13 @@
 import RemitosPage from './pages/RemitosPage'
-import './App.css'
+
 
 function App() {
 
   return (
-    <>
+    <div >
       <RemitosPage />
-    </>
+    </div>
+
   )
 }
 
