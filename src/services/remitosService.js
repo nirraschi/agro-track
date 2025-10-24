@@ -1,5 +1,4 @@
 import { supabase } from '../lib/supabaseClient';
-
 // Crear remito
 export const createRemito = async (remitoData) => {
     const { data, error } = await supabase
